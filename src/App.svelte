@@ -1,7 +1,7 @@
 <script>
-    import HelloAxios from "./lib/HelloAxios.svelte";
+    import HelloInput from "./lib/HelloInput.svelte";
 </script>
 
 <main>
-  <HelloAxios />
+  <HelloInput />
 </main>
