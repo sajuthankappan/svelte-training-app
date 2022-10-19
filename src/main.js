@@ -1,13 +1,9 @@
 import './app.css'
 // import App from './App.svelte'
-import FancyLabel from './lib/FancyLabel.svelte'
+import App from './App.svelte'
 
-const app = new FancyLabel({
-  target: document.getElementById('app'),
-  props: {
-    name: "Saju",
-    gender: "male"
-  }
+const app = new App({
+  target: document.getElementById('app')
 })
 
 export default app

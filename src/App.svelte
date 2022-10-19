@@ -1,8 +1,7 @@
 <script>
-    import HelloDynamic from "./lib/HelloDynamic.svelte";
-
+    import HelloAwait from "./lib/HelloAwait.svelte";
 </script>
 
 <main>
-  <HelloDynamic />
+  <HelloAwait />
 </main>
