@@ -1,7 +1,7 @@
 <script>
-    import HelloAwait from "./lib/HelloAwait.svelte";
+    import HelloAxios from "./lib/HelloAxios.svelte";
 </script>
 
 <main>
-  <HelloAwait />
+  <HelloAxios />
 </main>
