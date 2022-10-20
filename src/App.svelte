@@ -1,7 +1,8 @@
 <script>
-    import HelloInput from "./lib/HelloInput.svelte";
+    import SearchBox from "./lib/SearchBox.svelte";
+
 </script>
 
 <main>
-  <HelloInput />
+  <SearchBox />
 </main>
