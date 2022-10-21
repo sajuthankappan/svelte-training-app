@@ -1,9 +1,9 @@
 <script>
-    import HtmlBind from "./lib/HtmlBind.svelte";
+    import VideoBind from "./lib/VideoBind.svelte";
 
 
 </script>
 
 <main>
-  <HtmlBind />
+  <VideoBind />
 </main>
