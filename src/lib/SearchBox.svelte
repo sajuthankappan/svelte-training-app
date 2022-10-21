@@ -49,16 +49,33 @@
 
   <div>
     Search Results:
-    <div>
+    
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Content</th>
+      </tr>
       {#each searchResults as searchResult}
-        <div class="search-result-item">
-          {searchResult.pageTitle}
-          <br />
-          {searchResult.pageContent}
-        </div>
+        <tr>
+          <td>
+            <input type="text"bind:value={searchResult.pageTitle}>
+          </td>
+          <td>
+            <input type="text"bind:value={searchResult.pageContent}>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {searchResult.pageTitle}
+          </td>
+          <td>
+            {searchResult.pageContent}
+          </td>
+        </tr>
       {/each}
-    </div>
+      </table>
   </div>
+  {JSON.stringify(searchResults)}
 </div>
 
 <style>

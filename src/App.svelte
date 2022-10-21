@@ -1,8 +1,9 @@
 <script>
-    import SearchBox from "./lib/SearchBox.svelte";
+    import BindElement from "./lib/BindElement.svelte";
+
 
 </script>
 
 <main>
-  <SearchBox />
+  <BindElement />
 </main>
