@@ -1,7 +1,8 @@
 <script>
-    import BindingAcrossComponents from "./lib/BindingAcrossComponents.svelte";
+    import HelloDispatch from "./HelloDispatch.svelte";
+
 </script>
 
 <main>
-  <BindingAcrossComponents />
+<HelloDispatch />
 </main>
