@@ -1,9 +1,7 @@
 <script>
-    import VideoBind from "./lib/VideoBind.svelte";
-
-
+    import BindingAcrossComponents from "./lib/BindingAcrossComponents.svelte";
 </script>
 
 <main>
-  <VideoBind />
+  <BindingAcrossComponents />
 </main>
