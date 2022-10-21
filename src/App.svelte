@@ -1,9 +1,9 @@
 <script>
-    import BindElement from "./lib/BindElement.svelte";
+    import HtmlBind from "./lib/HtmlBind.svelte";
 
 
 </script>
 
 <main>
-  <BindElement />
+  <HtmlBind />
 </main>
