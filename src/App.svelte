@@ -1,8 +1,8 @@
 <script>
-    import HelloDispatch from "./HelloDispatch.svelte";
+    import ReactiveStatements from "./lib/ReactiveStatements.svelte";
 
 </script>
 
 <main>
-<HelloDispatch />
+<ReactiveStatements />
 </main>
