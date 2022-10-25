@@ -1,9 +1,7 @@
 <script>
-    import Driver from "./lib/Driver.svelte";
-
-
+    import HelloDispatch from "./lib/HelloDispatch.svelte";
 </script>
 
 <main>
-<Driver />
+<HelloDispatch />
 </main>
