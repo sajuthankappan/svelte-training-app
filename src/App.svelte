@@ -1,7 +1,7 @@
 <script>
-    import ConditionalStyle from "./lib/ConditionalStyle.svelte";
+    import HelloArray from "./lib/HelloArray.svelte";
 </script>
 
 <main>
-<ConditionalStyle />
+<HelloArray />
 </main>
