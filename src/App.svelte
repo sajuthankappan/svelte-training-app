@@ -1,7 +1,7 @@
 <script>
-    import HelloArray from "./lib/HelloArray.svelte";
+    import HelloTransition from "./lib/HelloTransition.svelte";
 </script>
 
 <main>
-<HelloArray />
+<HelloTransition />
 </main>
