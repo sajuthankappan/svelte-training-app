@@ -1,7 +1,7 @@
 <script>
-    import HelloDispatch from "./lib/HelloDispatch.svelte";
+    import ConditionalStyle from "./lib/ConditionalStyle.svelte";
 </script>
 
 <main>
-<HelloDispatch />
+<ConditionalStyle />
 </main>
