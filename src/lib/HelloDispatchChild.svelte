@@ -1,9 +1,12 @@
 <script>
   import { createEventDispatcher } from 'svelte';
   
+  export let deleteCallbackFn;
+  
   const dispatch = createEventDispatcher();
 
   let value;
+
 
   function handleOkClick() {
     dispatch('ok', {
@@ -16,6 +19,10 @@
       
     })
   }
+
+  function handleDeleteClick() {
+    deleteCallbackFn(value)
+  }
 </script>
 
 <div class="dialog">
@@ -25,6 +32,7 @@
 
   <button on:click={handleOkClick} >Ok</button>
   <button on:click={handleCancelClick} >Cancel</button>
+  <button on:click={handleDeleteClick} >Delete</button>
 </div>
 
 <style>
