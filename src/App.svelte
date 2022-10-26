@@ -1,7 +1,7 @@
 <script>
-    import HelloTransition from "./lib/HelloTransition.svelte";
+    import HelloCompositionParent from "./lib/HelloCompositionParent.svelte";
 </script>
 
 <main>
-<HelloTransition />
+<HelloCompositionParent />
 </main>
